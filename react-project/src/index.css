@@ -1,0 +1,24 @@
+body{
+    overflow: hidden;
+    background: radial-gradient(#00000012 0.6px, transparent 0.7px) 0 0/3px 3px, linear-gradient(to bottom, rgb(3, 156, 85),rgb(1, 107, 45)) ;
+    background-attachment: fixed;
+}
+
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10px 0;
+}
+
+.clock{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+
+}
+
+.dropdown{
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+.timer-card {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 320px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .time-display {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .inputs input {
+    width: 60px;
+    padding: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+  }
+  
+  .inputs input:disabled {
+    opacity: 0.5;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn.start {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: rgb(150, 218, 50);
+  }
+  
+  .btn.stop {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: rgb(152, 1, 1);
+  }
+  
+  .btn.reset {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: orange;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+  }

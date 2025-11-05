@@ -1,0 +1,92 @@
+/* Page layout */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Form container */
+  .clock-form {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 16px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .dropdown option {
+    color: black; /* ensures options are visible in dropdown list */
+  }
+  
+  /* Button */
+  .submit-btn {
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+    color: rgb(150, 218, 50);
+    transition: all 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .reset-btn {
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+    color: orange;
+    transition: all 0.3s ease;
+  }
+  
+  .reset-btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Clock styling (optional if you have one already) */
+  .clock-container {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
